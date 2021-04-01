@@ -15,6 +15,11 @@
 		501507532615FB93000790EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501507512615FB93000790EF /* LaunchScreen.storyboard */; };
 		5015075E2615FB93000790EF /* Swift_FPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015075D2615FB93000790EF /* Swift_FPTests.swift */; };
 		501507692615FB94000790EF /* Swift_FPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501507682615FB94000790EF /* Swift_FPUITests.swift */; };
+		501507832615FE23000790EF /* SessionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501507822615FE23000790EF /* SessionTwo.swift */; };
+		5015078E261604EE000790EF /* SessionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015078D261604EE000790EF /* SessionThree.swift */; };
+		5015079526160ADF000790EF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015079426160ADF000790EF /* Order.swift */; };
+		5015079E26164325000790EF /* SessionFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015079D26164325000790EF /* SessionFour.swift */; };
+		501507A72616600C000790EF /* SessionFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501507A62616600C000790EF /* SessionFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		501507642615FB93000790EF /* Swift FPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift FPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		501507682615FB94000790EF /* Swift_FPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FPUITests.swift; sourceTree = "<group>"; };
 		5015076A2615FB94000790EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501507822615FE23000790EF /* SessionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTwo.swift; sourceTree = "<group>"; };
+		5015078D261604EE000790EF /* SessionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionThree.swift; sourceTree = "<group>"; };
+		5015079426160ADF000790EF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		5015079D26164325000790EF /* SessionFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFour.swift; sourceTree = "<group>"; };
+		501507A62616600C000790EF /* SessionFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		501507452615FB90000790EF /* Swift FP */ = {
 			isa = PBXGroup;
 			children = (
+				501507812615FE13000790EF /* Sessions */,
 				501507462615FB90000790EF /* AppDelegate.swift */,
 				501507482615FB90000790EF /* SceneDelegate.swift */,
 				5015074A2615FB90000790EF /* ViewController.swift */,
@@ -126,6 +137,50 @@
 				5015076A2615FB94000790EF /* Info.plist */,
 			);
 			path = "Swift FPUITests";
+			sourceTree = "<group>";
+		};
+		501507812615FE13000790EF /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				5015079326160AD0000790EF /* Two */,
+				5015079226160AC8000790EF /* Three */,
+				5015079C261642FA000790EF /* Four */,
+				501507A526165F78000790EF /* Five */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		5015079226160AC8000790EF /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				5015078D261604EE000790EF /* SessionThree.swift */,
+				5015079426160ADF000790EF /* Order.swift */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		5015079326160AD0000790EF /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				501507822615FE23000790EF /* SessionTwo.swift */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		5015079C261642FA000790EF /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				5015079D26164325000790EF /* SessionFour.swift */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		501507A526165F78000790EF /* Five */ = {
+			isa = PBXGroup;
+			children = (
+				501507A62616600C000790EF /* SessionFive.swift */,
+			);
+			path = Five;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5015079E26164325000790EF /* SessionFour.swift in Sources */,
+				5015079526160ADF000790EF /* Order.swift in Sources */,
 				5015074B2615FB90000790EF /* ViewController.swift in Sources */,
+				501507832615FE23000790EF /* SessionTwo.swift in Sources */,
 				501507472615FB90000790EF /* AppDelegate.swift in Sources */,
+				5015078E261604EE000790EF /* SessionThree.swift in Sources */,
 				501507492615FB90000790EF /* SceneDelegate.swift in Sources */,
+				501507A72616600C000790EF /* SessionFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
